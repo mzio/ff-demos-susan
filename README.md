@@ -1,9 +1,6 @@
 # ff-demos-susan
 
-A temporary one-page site — written as a short blog post / notes — on
-**flawed-flowed**: agentic AI for consumers, a personal assistant that doesn't
-just *read* the world to answer questions, but *acts* on it to get arbitrary
-tasks done. Includes four browser-use demos.
+Temporary one-page site on **flawed-flowed**. Includes four browser-use demos.
 
 🔗 **Live site:** http://michaelzhang.xyz/ff-demos-susan/
 (also at https://mzio.github.io/ff-demos-susan/)
@@ -25,7 +22,9 @@ tasks done. Includes four browser-use demos.
 4. **Messaging a business with a question** — reaches out directly when the
    answer isn't on the internet.
 
-## Local preview
+## Other notes
+
+### Local preview
 
 It's a static site — just open `index.html`, or serve the folder:
 
@@ -34,7 +33,7 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-## Re-encoding videos
+### Re-encoding videos
 
 Source recordings live in the main `flawed-flowed` repo under
 `assets/demo_susan/*.mov`. To regenerate the web-optimized versions:
