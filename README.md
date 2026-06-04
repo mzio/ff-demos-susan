@@ -4,7 +4,8 @@ A minimal, one-page site showcasing **flawed-flowed**: agentic AI for
 consumers — a personal assistant that doesn't just *read* the world to answer
 questions, but *acts* on it to get real tasks done.
 
-🔗 **Live site:** https://mzio.github.io/flawed-flowed-demos/
+🔗 **Live site:** http://michaelzhang.xyz/flawed-flowed-demos/
+(also at https://mzio.github.io/flawed-flowed-demos/)
 
 ## What's here
 
