@@ -3,225 +3,212 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>flawed-flowed — agentic AI that acts on the world</title>
-  <meta name="description" content="Demos of flawed-flowed: a personal assistant that doesn't just gather information, but acts on the world to get real tasks done." />
+  <title>flawed-flowed — agentic AI for consumers (demos + notes)</title>
+  <meta name="description" content="Notes and demos on flawed-flowed: enabling AI as a personal assistant that acts on the world to get arbitrary tasks done, rather than just gathering information to answer questions." />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="flawed-flowed — agentic AI that acts on the world" />
-  <meta property="og:description" content="A personal assistant that doesn't just gather information, but acts on the world to get real tasks done." />
-  <meta property="og:type" content="website" />
+  <meta property="og:title" content="flawed-flowed — agentic AI for consumers (demos + notes)" />
+  <meta property="og:description" content="Enabling AI as a personal assistant that acts on the world to get arbitrary tasks done — not just one that reads it to answer questions." />
+  <meta property="og:type" content="article" />
   <meta property="og:image" content="assets/posters/book-reservation.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
+  <div class="masthead">
     <a class="wordmark" href="#top">flawed&#8202;-&#8202;flowed</a>
-    <nav class="nav-links">
-      <a href="#demos">demos</a>
-      <a href="#whats-next">what's next</a>
-      <a href="#approach">approach</a>
-    </nav>
-  </header>
+  </div>
 
-  <main id="top">
+  <article id="top">
 
-    <!-- ============ HERO ============ -->
-    <section class="hero">
-      <p class="eyebrow">Agentic AI for consumers</p>
-      <h1>An assistant that <em>acts</em> on the world&mdash;<br class="desktop-break" />not just one that reads it.</h1>
-      <p class="lede">
-        Most consumer AI today is an advanced search tool: it automates
-        <strong>information-gathering</strong> to answer questions &mdash; the
-        &ldquo;read&rdquo; tasks of deep research. <strong>flawed-flowed</strong>
-        is different. With the right setup, it acts as a personal assistant that
-        actually <strong>does things for you</strong> &mdash; booking, messaging,
-        sharing, exploring &mdash; the &ldquo;write&rdquo; tasks that change the
-        world on your behalf.
-      </p>
-      <div class="hero-meta">
-        <span>Browser-use as a universal primitive</span>
-        <span class="dot">&middot;</span>
-        <span>Real tasks, end to end</span>
-        <span class="dot">&middot;</span>
-        <span>4 live demos below</span>
-      </div>
-      <a class="scroll-cue" href="#demos" aria-label="Scroll to demos">
-        See the demos <span class="arrow">&darr;</span>
-      </a>
-    </section>
+    <header class="post-header">
+      <h1>Agentic AI for consumers</h1>
+      <p class="subtitle">Building personal assistants that act on the world to get arbitrary tasks done &mdash; with four demos.</p>
+      <p class="byline">Notes &amp; demos &middot; June 2026</p>
+    </header>
 
-    <!-- ============ CONTEXT ============ -->
-    <section class="prose context">
-      <p>
-        Incumbents like Anthropic, OpenAI, and Google DeepMind are capitalizing
-        on agentic AI in coding and enterprise. But there&rsquo;s a large, largely
-        untapped vertical: <strong>consumer-facing agentic AI</strong>. Many
-        everyday tasks can&rsquo;t be solved by reading the internet alone &mdash;
-        the model has to <em>write</em>, using the web to actually book a table,
-        message a business, or share a recommendation with a friend.
-      </p>
-      <p class="muted">
-        The four demos below each show flawed-flowed completing one of those
-        write-tasks, end to end.
-      </p>
-    </section>
+    <p>
+      All of the demos below stress a <strong>core</strong> change in
+      consumer-AI experiences, in particular: agentic AI for consumer
+      use-cases. This is an expansion from the dominant model of consumer AI
+      today (e.g., in ChatGPT), where AI is an advanced search tool that
+      automates <em>information-gathering</em> to answer questions
+      (i.e., &ldquo;read-tasks&rdquo;, &ldquo;deep research&rdquo;). Instead,
+      with the right setup, we can now enable AI as a personal assistant that
+      actually acts on the world to <em>get arbitrary tasks done</em> for the
+      user (i.e., &ldquo;write-tasks&rdquo;, &ldquo;tool calling in the real
+      world&rdquo;).
+    </p>
 
-    <!-- ============ DEMOS ============ -->
-    <section id="demos" class="demos">
+    <p>
+      Regarding agentic AI at large, we&rsquo;re seeing incumbents like
+      Anthropic, OpenAI, and GDM capitalize on this in coding and some broader
+      enterprise use-cases today. But there&rsquo;s a large open vertical of
+      consumer-facing agentic AI that is largely untapped. Interestingly, AI
+      companies like Meta may be uniquely positioned to lead here by building on
+      their existing infrastructure (Instagram, Facebook, WhatsApp).
+    </p>
 
-      <article class="demo">
-        <div class="demo-head">
-          <span class="demo-num">01</span>
-          <div>
-            <h2>Booking a reservation</h2>
-            <p class="demo-desc">
-              flawed-flowed finds a restaurant and books a table for four &mdash;
-              navigating the booking flow the way a person would, confirming the
-              details along the way.
-            </p>
-          </div>
-        </div>
-        <figure class="demo-video">
-          <video controls playsinline preload="metadata" muted
-                 poster="assets/posters/book-reservation.jpg">
-            <source src="assets/videos/book-reservation.mp4" type="video/mp4" />
-            Your browser doesn&rsquo;t support embedded video.
-          </video>
-        </figure>
-      </article>
+    <h2 id="demos">The demos</h2>
 
-      <article class="demo">
-        <div class="demo-head">
-          <span class="demo-num">02</span>
-          <div>
-            <h2>Exploring businesses on Instagram</h2>
-            <p class="demo-desc">
-              It browses Instagram to discover and evaluate local businesses &mdash;
-              the same kind of open-ended exploration you&rsquo;d do yourself when
-              looking for somewhere new.
-            </p>
-          </div>
-        </div>
-        <figure class="demo-video">
-          <video controls playsinline preload="metadata" muted
-                 poster="assets/posters/explore-businesses.jpg">
-            <source src="assets/videos/explore-businesses.mp4" type="video/mp4" />
-            Your browser doesn&rsquo;t support embedded video.
-          </video>
-        </figure>
-      </article>
+    <p>
+      All the demos show capabilities of how flawed-flowed can act as a personal
+      assistant on the user&rsquo;s behalf to get tasks done. As a reminder,
+      many of these tasks cannot be completed by gathering information from the
+      Internet (&ldquo;read&rdquo; operations). Instead, the model needs to
+      &ldquo;write&rdquo;, using the Internet to actually enact some change on
+      the world (booking a reservation, communicating with a business, sharing
+      information to friends) on the user&rsquo;s behalf.
+    </p>
 
-      <article class="demo">
-        <div class="demo-head">
-          <span class="demo-num">03</span>
-          <div>
-            <h2>Sending recommendations to family &amp; friends</h2>
-            <p class="demo-desc">
-              Building on what it found while exploring, flawed-flowed composes and
-              sends recommendations to the people you care about &mdash; carrying
-              context from one task into the next.
-            </p>
-          </div>
-        </div>
-        <figure class="demo-video">
-          <video controls playsinline preload="metadata" muted
-                 poster="assets/posters/send-recommendations.jpg">
-            <source src="assets/videos/send-recommendations.mp4" type="video/mp4" />
-            Your browser doesn&rsquo;t support embedded video.
-          </video>
-        </figure>
-      </article>
+    <h3 class="demo-title">1. Booking a reservation</h3>
+    <p>
+      This shows how we can use flawed-flowed to book a reservation for 4.
+    </p>
+    <figure class="demo-video">
+      <video controls playsinline preload="metadata" muted
+             poster="assets/posters/book-reservation.jpg">
+        <source src="assets/videos/book-reservation.mp4" type="video/mp4" />
+        Your browser doesn&rsquo;t support embedded video.
+      </video>
+      <figcaption>flawed-flowed booking a table for four, end to end.</figcaption>
+    </figure>
 
-      <article class="demo">
-        <div class="demo-head">
-          <span class="demo-num">04</span>
-          <div>
-            <h2>Messaging a business with a question</h2>
-            <p class="demo-desc">
-              When the answer isn&rsquo;t on the internet, flawed-flowed reaches out
-              directly &mdash; messaging a business to ask a question you couldn&rsquo;t
-              simply look up.
-            </p>
-          </div>
-        </div>
-        <figure class="demo-video">
-          <video controls playsinline preload="metadata" muted
-                 poster="assets/posters/message-business.jpg">
-            <source src="assets/videos/message-business.mp4" type="video/mp4" />
-            Your browser doesn&rsquo;t support embedded video.
-          </video>
-        </figure>
-      </article>
+    <h3 class="demo-title">2. Exploring businesses on Instagram</h3>
+    <p>
+      This shows how we can use flawed-flowed to explore businesses on
+      Instagram.
+    </p>
+    <figure class="demo-video">
+      <video controls playsinline preload="metadata" muted
+             poster="assets/posters/explore-businesses.jpg">
+        <source src="assets/videos/explore-businesses.mp4" type="video/mp4" />
+        Your browser doesn&rsquo;t support embedded video.
+      </video>
+      <figcaption>Open-ended exploration of local businesses on Instagram.</figcaption>
+    </figure>
 
-    </section>
+    <h3 class="demo-title">3. Sending recommendations to family and friends</h3>
+    <p>
+      This shows how we can use flawed-flowed to send recommendations from its
+      prior explorations to family and friends &mdash; i.e., carrying context
+      from one task forward into the next.
+    </p>
+    <figure class="demo-video">
+      <video controls playsinline preload="metadata" muted
+             poster="assets/posters/send-recommendations.jpg">
+        <source src="assets/videos/send-recommendations.mp4" type="video/mp4" />
+        Your browser doesn&rsquo;t support embedded video.
+      </video>
+      <figcaption>Sharing recommendations drawn from a prior exploration.</figcaption>
+    </figure>
 
-    <!-- ============ WHAT'S NEXT ============ -->
-    <section id="whats-next" class="prose feature-block">
-      <h2 class="section-title">What&rsquo;s still to do</h2>
-      <p>
-        Realizing this requires core advances on both the modeling and
-        infrastructure sides.
-      </p>
+    <h3 class="demo-title">4. Messaging a business about a question</h3>
+    <p>
+      This shows how we can use flawed-flowed to message a business about a
+      question, which we would not be able to look up on the Internet.
+    </p>
+    <figure class="demo-video">
+      <video controls playsinline preload="metadata" muted
+             poster="assets/posters/message-business.jpg">
+        <source src="assets/videos/message-business.mp4" type="video/mp4" />
+        Your browser doesn&rsquo;t support embedded video.
+      </video>
+      <figcaption>Reaching out directly when the answer isn&rsquo;t on the Internet.</figcaption>
+    </figure>
 
-      <div class="cards">
-        <div class="card">
-          <h3>Robustness &amp; reliability</h3>
-          <p>
-            Unlike &ldquo;superintelligence&rdquo; tasks where the expectation is
-            failure, being superhuman at <em>everyday</em> tasks means clearing a
-            different bar: the expectation <em>is</em> success. The assistant has to
-            perform at the level of a competent human executive assistant.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Efficiency</h3>
-          <p>
-            Once tasks are done reliably, they should be done quickly &mdash; for a
-            better experience and lower cost. Yet users may value reliability over
-            raw speed: the real win is shifting cognitive load, so a task done
-            <em>within a reasonable window</em> &mdash; and trusted &mdash; can be
-            enough.
-          </p>
-        </div>
-      </div>
+    <h2 id="whats-next">What&rsquo;s still to do?</h2>
 
-      <p class="aside muted">
-        There&rsquo;s a strong correspondence between the cost of failure in a task
-        and the rate of progress on it. We moved fast on math and code because
-        checking correctness was cheap and failure was nearly free. Everyday
-        write-tasks raise that cost &mdash; placing the wrong order isn&rsquo;t free
-        &mdash; which is exactly why reliability matters most here.
-      </p>
-    </section>
+    <p>
+      Realizing the above requires several core capabilities on both the
+      modeling and larger infrastructure sides.
+    </p>
 
-    <!-- ============ APPROACH ============ -->
-    <section id="approach" class="prose feature-block">
-      <h2 class="section-title">The approach</h2>
-      <p>
-        <strong>Simplicity and generality.</strong> Just as execution is shifting
-        from tool-calling MCPs to terminal-only code execution, we build on simple,
-        generalizable primitives rather than site-specific APIs.
-      </p>
-      <p>
-        Instead of bespoke tools for WhatsApp, Instagram, or any one service, we
-        start from <strong>browser-use</strong> as a universal primitive &mdash; a
-        basis broad enough to capture anything a human can do on the web, with no
-        per-site integration. Today that&rsquo;s a thin wrapper around Playwright
-        (via <code>playwright-cli</code>), which post-processes the DOM to make it
-        more readable for the model. As coding models improve, they can build their
-        own robust APIs on top.
-      </p>
-    </section>
+    <p>
+      <strong>Robustness and reliability.</strong> Most importantly, we can only
+      enable the above if models can complete tasks at the same level of
+      competence as a human executive assistant. Unlike
+      &ldquo;superintelligence&rdquo; tasks (e.g., discovering scientific and
+      mathematical breakthroughs) where the expectation is failure &mdash; we
+      care about recall not precision, and this ironically makes deploying models
+      here more palatable and success easier in some ways<a class="fnref" href="#fn1" id="fnref1">1</a>
+      &mdash; being superhuman at &ldquo;everyday&rdquo; tasks means satisfying a
+      different bar for success, where the expectation <em>is</em> success.
+    </p>
 
-  </main>
+    <p>
+      <strong>Efficiency.</strong> Once models can robustly and reliably complete
+      tasks, we also want models to be able to complete tasks <em>quickly</em>.
+      This is both motivated by a better user experience (most would prefer to
+      get a task done sooner rather than later), and better costs (saving tokens
+      and wall-clock time leads to lower costs on our end).
+    </p>
+
+    <p>
+      One potentially subtle point is that users may actually place more of a
+      premium on robustness / reliability versus speed than initially expected.
+      This is because even if a task takes a bit longer than users completing it
+      themselves, there&rsquo;s value in shifting the cognitive load of the task
+      to an assistant (they can &ldquo;set it and forget it&rdquo;). Importantly,
+      this cognitive load may only lift if the user can trust the assistant
+      (i.e., the task is done robustly and reliably). But if that&rsquo;s the
+      case, then it may suffice for a task to be done within a certain reasonable
+      time window, versus trying to drive efficiency to completing tasks in the
+      shortest time possible.
+    </p>
+
+    <h2 id="appendix">Appendix: design desiderata</h2>
+
+    <p>
+      <strong>Simplicity and generality.</strong> Similar to how there is a
+      shift from tool-calling MCPs to terminal-only code execution, we design
+      tool execution around simple yet generalizable infrastructure and
+      primitives.
+    </p>
+
+    <p>
+      Rather than require specific APIs and site-specific tools (e.g., for
+      WhatsApp, Telegram, Instagram, etc.), we simply start with
+      <strong>browser-use</strong> as a universal primitive. This gives us a
+      &ldquo;basis&rdquo; to capture all the things a human can do, without
+      needing to write up specific tools to support site-specific features and
+      functionality. For now we simply wrap Playwright via the
+      <code>playwright-cli</code> package, which provides some post-processing of
+      the DOM to make it more readable and accessible for LLMs. Following this
+      approach, we could also build our own setup on top of even lower
+      primitives, e.g., the Chrome DevTools Protocol (CDP). We also note that as
+      the coding models get better, they may be able to code up their own robust
+      APIs for any website.
+    </p>
+
+    <hr class="footnotes-rule" />
+    <ol class="footnotes">
+      <li id="fn1">
+        As an aside, relatably there seems to be a strong correspondence between
+        the cost of failure in a task and the level of success. We made rapid
+        progress in math and code because the cost of checking for correctness
+        was low, and the cost of failure was epsilon &mdash; not even in terms of
+        annotation effort, but the cost (and ability even) to reverse any harmful
+        impacts of failure (a wrong math proof maybe hurts less than placing a
+        pizza order to the wrong place). But across both superintelligence and
+        everyday tasks, we see less progress in tasks where the cost of failure
+        is high. For example, consider developing new cures for longstanding
+        illnesses: a superintelligent task with relatively less AI progress,
+        where even if the model is able to generate ideas at the same level of
+        insight + creativity as a human expert, the cost of verifying these ideas
+        through clinical trials is high enough that we currently desire more
+        conviction to fully validate success and make progress.
+        <a class="fnback" href="#fnref1" aria-label="Back to text">&#8617;</a>
+      </li>
+    </ol>
+
+  </article>
 
   <footer class="site-footer">
     <p class="wordmark-sm">flawed&#8202;-&#8202;flowed</p>
-    <p class="muted">Continual learning from step-wise reflections &mdash; building personal assistants to do things for you.</p>
+    <p class="muted">Continual learning from step-wise reflections &mdash; building personal assistants to do stuff for you.</p>
   </footer>
 
 </body>

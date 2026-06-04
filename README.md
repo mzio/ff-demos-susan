@@ -1,16 +1,17 @@
-# flawed-flowed — demos
+# ff-demos-susan
 
-A minimal, one-page site showcasing **flawed-flowed**: agentic AI for
-consumers — a personal assistant that doesn't just *read* the world to answer
-questions, but *acts* on it to get real tasks done.
+A temporary one-page site — written as a short blog post / notes — on
+**flawed-flowed**: agentic AI for consumers, a personal assistant that doesn't
+just *read* the world to answer questions, but *acts* on it to get arbitrary
+tasks done. Includes four browser-use demos.
 
-🔗 **Live site:** http://michaelzhang.xyz/flawed-flowed-demos/
-(also at https://mzio.github.io/flawed-flowed-demos/)
+🔗 **Live site:** http://michaelzhang.xyz/ff-demos-susan/
+(also at https://mzio.github.io/ff-demos-susan/)
 
 ## What's here
 
-- `index.html` — the single-page site (no build step, no framework)
-- `style.css` — mobile-first, minimal styling
+- `index.html` — the single-page post (no build step, no framework)
+- `style.css` — mobile-first, blog-post styling
 - `assets/videos/` — web-optimized MP4 demo recordings
 - `assets/posters/` — poster frames for each video
 - `encode.sh` — the ffmpeg script used to compress the source `.mov` files
