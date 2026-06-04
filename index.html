@@ -110,30 +110,6 @@
       <figcaption>Reaching out directly when the answer isn&rsquo;t on the Internet.</figcaption>
     </figure>
 
-    <h2 id="appendix">Appendix: design desiderata</h2>
-
-    <p>
-      <strong>Simplicity and generality.</strong> Similar to how there is a
-      shift from tool-calling MCPs to terminal-only code execution, we design
-      tool execution around simple yet generalizable infrastructure and
-      primitives.
-    </p>
-
-    <p>
-      Rather than require specific APIs and site-specific tools (e.g., for
-      WhatsApp, Telegram, Instagram, etc.), we simply start with
-      <strong>browser-use</strong> as a universal primitive. This gives us a
-      &ldquo;basis&rdquo; to capture all the things a human can do, without
-      needing to write up specific tools to support site-specific features and
-      functionality. For now we simply wrap Playwright via the
-      <code>playwright-cli</code> package, which provides some post-processing of
-      the DOM to make it more readable and accessible for LLMs. Following this
-      approach, we could also build our own setup on top of even lower
-      primitives, e.g., the Chrome DevTools Protocol (CDP). We also note that as
-      the coding models get better, they may be able to code up their own robust
-      APIs for any website.
-    </p>
-
   </article>
 
   <footer class="site-footer">
