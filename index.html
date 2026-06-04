@@ -42,15 +42,6 @@
       world&rdquo;).
     </p>
 
-    <p>
-      Regarding agentic AI at large, we&rsquo;re seeing incumbents like
-      Anthropic, OpenAI, and GDM capitalize on this in coding and some broader
-      enterprise use-cases today. But there&rsquo;s a large open vertical of
-      consumer-facing agentic AI that is largely untapped. Interestingly, AI
-      companies like Meta may be uniquely positioned to lead here by building on
-      their existing infrastructure (Instagram, Facebook, WhatsApp).
-    </p>
-
     <h2 id="demos">The demos</h2>
 
     <p>
@@ -119,46 +110,6 @@
       <figcaption>Reaching out directly when the answer isn&rsquo;t on the Internet.</figcaption>
     </figure>
 
-    <h2 id="whats-next">What&rsquo;s still to do?</h2>
-
-    <p>
-      Realizing the above requires several core capabilities on both the
-      modeling and larger infrastructure sides.
-    </p>
-
-    <p>
-      <strong>Robustness and reliability.</strong> Most importantly, we can only
-      enable the above if models can complete tasks at the same level of
-      competence as a human executive assistant. Unlike
-      &ldquo;superintelligence&rdquo; tasks (e.g., discovering scientific and
-      mathematical breakthroughs) where the expectation is failure &mdash; we
-      care about recall not precision, and this ironically makes deploying models
-      here more palatable and success easier in some ways<a class="fnref" href="#fn1" id="fnref1">1</a>
-      &mdash; being superhuman at &ldquo;everyday&rdquo; tasks means satisfying a
-      different bar for success, where the expectation <em>is</em> success.
-    </p>
-
-    <p>
-      <strong>Efficiency.</strong> Once models can robustly and reliably complete
-      tasks, we also want models to be able to complete tasks <em>quickly</em>.
-      This is both motivated by a better user experience (most would prefer to
-      get a task done sooner rather than later), and better costs (saving tokens
-      and wall-clock time leads to lower costs on our end).
-    </p>
-
-    <p>
-      One potentially subtle point is that users may actually place more of a
-      premium on robustness / reliability versus speed than initially expected.
-      This is because even if a task takes a bit longer than users completing it
-      themselves, there&rsquo;s value in shifting the cognitive load of the task
-      to an assistant (they can &ldquo;set it and forget it&rdquo;). Importantly,
-      this cognitive load may only lift if the user can trust the assistant
-      (i.e., the task is done robustly and reliably). But if that&rsquo;s the
-      case, then it may suffice for a task to be done within a certain reasonable
-      time window, versus trying to drive efficiency to completing tasks in the
-      shortest time possible.
-    </p>
-
     <h2 id="appendix">Appendix: design desiderata</h2>
 
     <p>
@@ -182,27 +133,6 @@
       the coding models get better, they may be able to code up their own robust
       APIs for any website.
     </p>
-
-    <hr class="footnotes-rule" />
-    <ol class="footnotes">
-      <li id="fn1">
-        As an aside, relatably there seems to be a strong correspondence between
-        the cost of failure in a task and the level of success. We made rapid
-        progress in math and code because the cost of checking for correctness
-        was low, and the cost of failure was epsilon &mdash; not even in terms of
-        annotation effort, but the cost (and ability even) to reverse any harmful
-        impacts of failure (a wrong math proof maybe hurts less than placing a
-        pizza order to the wrong place). But across both superintelligence and
-        everyday tasks, we see less progress in tasks where the cost of failure
-        is high. For example, consider developing new cures for longstanding
-        illnesses: a superintelligent task with relatively less AI progress,
-        where even if the model is able to generate ideas at the same level of
-        insight + creativity as a human expert, the cost of verifying these ideas
-        through clinical trials is high enough that we currently desire more
-        conviction to fully validate success and make progress.
-        <a class="fnback" href="#fnref1" aria-label="Back to text">&#8617;</a>
-      </li>
-    </ol>
 
   </article>
 
